@@ -3,7 +3,7 @@
 <head>
     <script type="text/javascript">
         const params = new URLSearchParams(window.location.search);
-        const redirectUrl = params.get('redirect');
+        const redirectUrl = params.get('url');
 
         if (redirectUrl) {
             window.location.href = redirectUrl;
